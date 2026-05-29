@@ -12,59 +12,68 @@
         }
 
         body {
-            font-family: "Microsoft YaHei", "SimHei", sans-serif;
-            background-color: #ffffff;
+            font-family: "pingfang Microsoft YaHei", "SimHei", sans-serif;
+            background-color: #3c3c3c;
             min-height: 100vh;
+            color: #231916;
+            font-weight: bold;
+
         }
 
         .container {
             display: flex;
             width: 100%;
-            max-width: 1400px;
+            height: 1350px;
+            max-width: 1980px;
             margin: 0 auto;
+            background-color: #fff;
+        }
+        /* 新页面容器 - 上下间隔 */
+        .container-wrapper {
+            width: 100%;
+            height: 1350px;
+            max-width: 1980px;
+            margin: 5px auto 0;
+            background-color: #fff;
         }
 
         /* 页面整体布局 */
         .page {
             width: 50%;
-            padding: 20px;
+            padding: 105px 90px 50px 70px;
             position: relative;
-            border-right: 1px solid #ddd;
+            border-right: 2px solid #969190;
         }
 
         .page:last-child {
             border-right: none;
         }
 
-        /* 左上角紫色方块 */
+        /* 左上角橙色方块 */
         .corner-block {
             position: absolute;
             top: 0;
             left: 0;
-            width: 30px;
-            height: 80px;
-            background-color: #9B8BB4;
+            width: 55px;
+            height: 105px;
+            background-color: #f4a017;
         }
 
         /* 标题栏 */
         .title-bar {
-            background-color: #C5BFE7;
+            background-color: #f4a017;
             padding: 12px 20px;
-            margin-left: 30px;
             margin-bottom: 15px;
         }
 
         .title-bar h1 {
             font-size: 22px;
-            color: #333333;
-            font-weight: bold;
         }
 
         /* 内容区域 */
         .content {
             display: flex;
-            gap: 20px;
-            margin-left: 30px;
+            gap: 10px;
         }
 
         /* 左侧区域 */
@@ -77,15 +86,13 @@
 
         /* 特点部分 */
         .features {
-            background-color: #E8E6F0;
+            background-color: #FDE8C9;
             padding: 12px;
         }
 
         .features h3 {
             font-size: 14px;
-            color: #333;
             margin-bottom: 8px;
-            font-weight: bold;
         }
 
         .features ul {
@@ -95,14 +102,12 @@
 
         .features li {
             font-size: 12px;
-            color: #444;
             line-height: 1.6;
             position: relative;
         }
 
         .features li::before {
             content: "●";
-            color: #333;
             position: absolute;
             left: -12px;
         }
@@ -117,19 +122,19 @@
             height: auto;
             display: block;
             background-color: #fff;
-            border: 1px solid #ddd;
         }
 
         /* 右侧表格区域 */
         .right-section {
             flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         .specs-header {
             font-size: 13px;
-            color: #333;
             margin-bottom: 10px;
-            font-weight: bold;
         }
 
         /* 表格样式 */
@@ -139,57 +144,55 @@
             font-size: 11px;
         }
 
+        table tbody {
+            background-color: #FDE8C9;
+        }
+
         table th, table td {
-            border: 1px solid #ddd;
+            border: 1px solid #fff;
             padding: 6px 4px;
             text-align: center;
         }
 
         table th {
-            background-color: #E8E6F0;
-            font-weight: bold;
-            color: #333;
+            background-color: #f4a017;
         }
 
-        table tr:nth-child(even) td:first-child {
+        /* table tr:nth-child(even) td:first-child {
             background-color: #F5F4F8;
         }
 
         table tr:nth-child(odd) td:first-child {
             background-color: #ffffff;
-        }
-
-        table td:first-child {
-            font-weight: bold;
-            color: #666;
-        }
+        } */
 
         /* 底部备注 */
         .note {
             font-size: 10px;
-            color: #888;
-            margin-top: 10px;
             text-align: center;
         }
 
         /* 页码 */
         .page-number {
             position: absolute;
-            bottom: 20px;
-            left: 30px;
-            width: 50px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
             height: 50px;
-            background-color: #C5BFE7;
+            background-color: #cdcdcd;
+        }
+        .page-number span {
+            width: 120px;
+            height: 100%;
+            background-color: #f4a017;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 24px;
-            font-weight: bold;
-            color: #fff;
+            font-weight: normal;
         }
-
         /* 响应式设计 */
-        @media (max-width: 1000px) {
+        /* @media (max-width: 1000px) {
             .container {
                 flex-direction: column;
             }
@@ -199,14 +202,7 @@
                 border-right: none;
                 border-bottom: 1px solid #ddd;
             }
-        }
-
-        /* 新页面容器 - 上下间隔 */
-        .container-wrapper {
-            width: 100%;
-            max-width: 1400px;
-            margin: 5px auto 0;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -273,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="page-number">02</div>
+            <div class="page-number"><span>02</span></div>
         </div>
 
         <!-- 第03页 - 碳钢固定脚杯 -->
@@ -352,7 +348,7 @@
                 </div>
             </div>
 
-            <div class="page-number">03</div>
+            <div class="page-number"><span>03</span></div>
         </div>
     </div>
 
@@ -429,7 +425,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">04</div>
+                <div class="page-number"><span>04</span></div>
             </div>
 
             <!-- 第05页 -->
@@ -482,7 +478,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">05</div>
+                <div class="page-number"><span>05</span></div>
             </div>
         </div>
     </div>
@@ -541,7 +537,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">06</div>
+                <div class="page-number"><span>06</span></div>
             </div>
 
             <!-- 第07页 - 实心碳钢固定脚杯 -->
@@ -600,7 +596,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">07</div>
+                <div class="page-number"><span>07</span></div>
             </div>
         </div>
     </div>
@@ -663,7 +659,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">08</div>
+                <div class="page-number"><span>08</span></div>
             </div>
 
             <!-- 第09页 - 尼龙固定脚杯 -->
@@ -729,7 +725,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">09</div>
+                <div class="page-number"><span>09</span></div>
             </div>
         </div>
     </div>
@@ -798,7 +794,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">10</div>
+                <div class="page-number"><span>10</span></div>
             </div>
 
             <!-- 第11页 - 碳钢万向脚杯 -->
@@ -852,7 +848,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">11</div>
+                <div class="page-number"><span>11</span></div>
             </div>
         </div>
     </div>
@@ -929,7 +925,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">14</div>
+                <div class="page-number"><span>14</span></div>
             </div>
 
             <!-- 第14页 - 福马轮丝杆款 -->
@@ -977,7 +973,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">15</div>
+                <div class="page-number"><span>15</span></div>
             </div>
         </div>
     </div>
@@ -1030,7 +1026,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">16</div>
+                <div class="page-number"><span>16</span></div>
             </div>
 
             <!-- 第16页 - 福马轮蓝色PA平底款 -->
@@ -1080,7 +1076,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">17</div>
+                <div class="page-number"><span>17</span></div>
             </div>
         </div>
     </div>
@@ -1133,7 +1129,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">18</div>
+                <div class="page-number"><span>18</span></div>
             </div>
 
             <!-- 第18页 - 福马轮平板款 -->
@@ -1183,7 +1179,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">19</div>
+                <div class="page-number"><span>19</span></div>
             </div>
         </div>
     </div>
@@ -1235,7 +1231,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">20</div>
+                <div class="page-number"><span>20</span></div>
             </div>
 
             <!-- 第20页 - 福马轮低重心款 -->
@@ -1282,7 +1278,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">21</div>
+                <div class="page-number"><span>21</span></div>
             </div>
         </div>
     </div>
@@ -1335,7 +1331,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">22</div>
+                <div class="page-number"><span>22</span></div>
             </div>
 
             <!-- 第22页 - 福马轮手柄平底款 -->
@@ -1384,7 +1380,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">23</div>
+                <div class="page-number"><span>23</span></div>
             </div>
         </div>
     </div>
@@ -1436,7 +1432,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">24</div>
+                <div class="page-number"><span>24</span></div>
             </div>
 
             <!-- 第24页 - 福马轮出口平底款 -->
@@ -1487,7 +1483,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">25</div>
+                <div class="page-number"><span>25</span></div>
             </div>
         </div>
     </div>
@@ -1540,7 +1536,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">26</div>
+                <div class="page-number"><span>26</span></div>
             </div>
 
             <!-- 第26页 - 福马轮出口三角板款 -->
@@ -1588,7 +1584,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">27</div>
+                <div class="page-number"><span>27</span></div>
             </div>
         </div>
     </div>
@@ -1642,7 +1638,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">28</div>
+                <div class="page-number"><span>28</span></div>
             </div>
 
             <!-- 第28页 - 福马轮出口丝杆款 -->
@@ -1689,7 +1685,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">29</div>
+                <div class="page-number"><span>29</span></div>
             </div>
         </div>
     </div>
@@ -1741,7 +1737,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">30</div>
+                <div class="page-number"><span>30</span></div>
             </div>
 
             <!-- 第30页 - 福马轮出口手柄/螺母带刹车丝杆款 -->
@@ -1786,7 +1782,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">31</div>
+                <div class="page-number"><span>31</span></div>
             </div>
         </div>
     </div>
@@ -1808,7 +1804,7 @@
                     </div>
                 </div>
 
-                <div class="page-number">32</div>
+                <div class="page-number"><span>32</span></div>
             </div>
 
             <!-- 第35页 - 长方形超重型牛仔轮 -->
@@ -1859,7 +1855,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">35</div>
+                <div class="page-number"><span>35</span></div>
             </div>
         </div>
     </div>
@@ -1915,7 +1911,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">36</div>
+                <div class="page-number"><span>36</span></div>
             </div>
 
             <!-- 第37页 - 低重心牛仔轮 -->
@@ -1964,7 +1960,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">37</div>
+                <div class="page-number"><span>37</span></div>
             </div>
         </div>
     </div>
@@ -2017,7 +2013,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">38</div>
+                <div class="page-number"><span>38</span></div>
             </div>
 
             <!-- 第39页 - 低重心白尼龙脚轮 -->
@@ -2063,7 +2059,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">39</div>
+                <div class="page-number"><span>39</span></div>
             </div>
         </div>
     </div>
@@ -2114,7 +2110,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">40</div>
+                <div class="page-number"><span>40</span></div>
             </div>
 
             <!-- 第41页 - 工业吨级双排尼龙脚轮 -->
@@ -2160,7 +2156,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">41</div>
+                <div class="page-number"><span>41</span></div>
             </div>
         </div>
     </div>
@@ -2214,7 +2210,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">42</div>
+                <div class="page-number"><span>42</span></div>
             </div>
 
             <!-- 第43页 - 超重型脚轮带调节脚杯 -->
@@ -2261,7 +2257,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">43</div>
+                <div class="page-number"><span>43</span></div>
             </div>
         </div>
     </div>
@@ -2314,7 +2310,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">44</div>
+                <div class="page-number"><span>44</span></div>
             </div>
 
             <!-- 第45页 - 中型灰色TPR橡胶脚轮 -->
@@ -2363,7 +2359,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">45</div>
+                <div class="page-number"><span>45</span></div>
             </div>
         </div>
     </div>
@@ -2417,7 +2413,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">46</div>
+                <div class="page-number"><span>46</span></div>
             </div>
 
             <!-- 第47页 - 中型白尼龙脚轮 -->
@@ -2466,7 +2462,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">47</div>
+                <div class="page-number"><span>47</span></div>
             </div>
         </div>
     </div>
@@ -2520,7 +2516,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">48</div>
+                <div class="page-number"><span>48</span></div>
             </div>
 
             <!-- 第49页 - 轻中型金钻脚轮 -->
@@ -2569,7 +2565,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">49</div>
+                <div class="page-number"><span>49</span></div>
             </div>
         </div>
     </div>
@@ -2621,7 +2617,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">50</div>
+                <div class="page-number"><span>50</span></div>
             </div>
 
             <!-- 第51页 - 重型灰色TPR橡胶脚轮 -->
@@ -2668,7 +2664,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">51</div>
+                <div class="page-number"><span>51</span></div>
             </div>
         </div>
     </div>
@@ -2720,7 +2716,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">52</div>
+                <div class="page-number"><span>52</span></div>
             </div>
 
             <!-- 第53页 - 重型国标款韩式红色聚氨酯脚轮 -->
@@ -2767,7 +2763,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">53</div>
+                <div class="page-number"><span>53</span></div>
             </div>
         </div>
     </div>
@@ -2819,7 +2815,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">54</div>
+                <div class="page-number"><span>54</span></div>
             </div>
 
             <!-- 第55页 - 重型国标款白尼龙脚轮 -->
@@ -2866,7 +2862,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">55</div>
+                <div class="page-number"><span>55</span></div>
             </div>
         </div>
     </div>
@@ -2919,7 +2915,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">56</div>
+                <div class="page-number"><span>56</span></div>
             </div>
 
             <!-- 第57页 - 中型黑色TPR橡胶脚轮 -->
@@ -2967,7 +2963,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">57</div>
+                <div class="page-number"><span>57</span></div>
             </div>
         </div>
     </div>
@@ -3020,7 +3016,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">58</div>
+                <div class="page-number"><span>58</span></div>
             </div>
 
             <!-- 第59页 - 重型黄色聚氨酯脚轮 -->
@@ -3067,7 +3063,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">59</div>
+                <div class="page-number"><span>59</span></div>
             </div>
         </div>
     </div>
@@ -3119,7 +3115,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">60</div>
+                <div class="page-number"><span>60</span></div>
             </div>
 
             <!-- 第61页 - 重型白尼龙脚轮 -->
@@ -3166,7 +3162,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">61</div>
+                <div class="page-number"><span>61</span></div>
             </div>
         </div>
     </div>
@@ -3219,7 +3215,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">62</div>
+                <div class="page-number"><span>62</span></div>
             </div>
 
             <!-- 第63页 - 中型防静电脚轮 -->
@@ -3267,7 +3263,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">63</div>
+                <div class="page-number"><span>63</span></div>
             </div>
         </div>
     </div>
@@ -3319,7 +3315,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">64</div>
+                <div class="page-number"><span>64</span></div>
             </div>
 
             <!-- 第65页 - 轻型导电脚轮 -->
@@ -3366,7 +3362,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">65</div>
+                <div class="page-number"><span>65</span></div>
             </div>
         </div>
     </div>
@@ -3419,7 +3415,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">66</div>
+                <div class="page-number"><span>66</span></div>
             </div>
 
             <!-- 第67页 - 重型导电脚轮 -->
@@ -3466,7 +3462,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">67</div>
+                <div class="page-number"><span>67</span></div>
             </div>
         </div>
     </div>
@@ -3519,7 +3515,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">68</div>
+                <div class="page-number"><span>68</span></div>
             </div>
 
             <!-- 第69页 - 中型黑色耐高温双轴承脚轮 -->
@@ -3567,7 +3563,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">69</div>
+                <div class="page-number"><span>69</span></div>
             </div>
         </div>
     </div>
@@ -3619,7 +3615,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">70</div>
+                <div class="page-number"><span>70</span></div>
             </div>
 
             <!-- 第71页 - 重型黑色耐高温脚轮 -->
@@ -3666,7 +3662,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">71</div>
+                <div class="page-number"><span>71</span></div>
             </div>
         </div>
     </div>
@@ -3719,7 +3715,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">72</div>
+                <div class="page-number"><span>72</span></div>
             </div>
 
             <!-- 第73页 - 中型黑色耐高温无轴承脚轮 -->
@@ -3767,7 +3763,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">73</div>
+                <div class="page-number"><span>73</span></div>
             </div>
         </div>
     </div>
@@ -3819,7 +3815,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">74</div>
+                <div class="page-number"><span>74</span></div>
             </div>
 
             <!-- 第75页 - 中型不锈钢灰色TPR橡胶脚轮 -->
@@ -3868,7 +3864,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">75</div>
+                <div class="page-number"><span>75</span></div>
             </div>
         </div>
     </div>
@@ -3922,7 +3918,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">76</div>
+                <div class="page-number"><span>76</span></div>
             </div>
 
             <!-- 第77页 - 中型不锈钢枣红聚氨酯脚轮 -->
@@ -3971,7 +3967,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">77</div>
+                <div class="page-number"><span>77</span></div>
             </div>
         </div>
     </div>
@@ -4023,7 +4019,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">78</div>
+                <div class="page-number"><span>78</span></div>
             </div>
 
             <!-- 第79页 - 重型不锈钢灰色TPR橡胶脚轮 -->
@@ -4070,7 +4066,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">79</div>
+                <div class="page-number"><span>79</span></div>
             </div>
         </div>
     </div>
@@ -4122,7 +4118,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">80</div>
+                <div class="page-number"><span>80</span></div>
             </div>
 
             <!-- 第81页 - 轻型不锈钢加厚灰色TPR脚轮 -->
@@ -4169,7 +4165,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">81</div>
+                <div class="page-number"><span>81</span></div>
             </div>
         </div>
     </div>
@@ -4221,7 +4217,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">82</div>
+                <div class="page-number"><span>82</span></div>
             </div>
 
             <!-- 第83页 - 中型不锈钢黑色TPR带盖脚轮 -->
@@ -4269,7 +4265,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">83</div>
+                <div class="page-number"><span>83</span></div>
             </div>
         </div>
     </div>
@@ -4322,7 +4318,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">84</div>
+                <div class="page-number"><span>84</span></div>
             </div>
 
             <!-- 第85页 - 中型不锈钢枣红聚氨酯带盖脚轮 -->
@@ -4370,7 +4366,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">85</div>
+                <div class="page-number"><span>85</span></div>
             </div>
         </div>
     </div>
@@ -4423,7 +4419,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">86</div>
+                <div class="page-number"><span>86</span></div>
             </div>
 
             <!-- 第87页 - 中型不锈钢黑色耐高温脚轮 -->
@@ -4471,7 +4467,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">87</div>
+                <div class="page-number"><span>87</span></div>
             </div>
         </div>
     </div>
@@ -4523,7 +4519,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">88</div>
+                <div class="page-number"><span>88</span></div>
             </div>
 
             <!-- 第89页 - 重型不锈钢黑色耐高温脚轮 -->
@@ -4570,7 +4566,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">89</div>
+                <div class="page-number"><span>89</span></div>
             </div>
         </div>
     </div>
@@ -4623,7 +4619,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">90</div>
+                <div class="page-number"><span>90</span></div>
             </div>
 
             <!-- 第91页 - 重型不锈钢抗冲击铝芯PU脚轮 -->
@@ -4670,7 +4666,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">91</div>
+                <div class="page-number"><span>91</span></div>
             </div>
         </div>
     </div>
@@ -4722,7 +4718,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">92</div>
+                <div class="page-number"><span>92</span></div>
             </div>
 
             <!-- 第93页 - 超重型不锈钢抗冲击MC尼龙脚轮 -->
@@ -4769,7 +4765,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">93</div>
+                <div class="page-number"><span>93</span></div>
             </div>
         </div>
     </div>
@@ -4821,7 +4817,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">94</div>
+                <div class="page-number"><span>94</span></div>
             </div>
 
             <!-- 第95页 - 中型铁芯聚氨酯脚轮 -->
@@ -4870,7 +4866,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">95</div>
+                <div class="page-number"><span>95</span></div>
             </div>
         </div>
     </div>
@@ -4922,7 +4918,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">96</div>
+                <div class="page-number"><span>96</span></div>
             </div>
 
             <!-- 第97页 - 超重型铁芯聚氨酯脚轮 -->
@@ -4971,7 +4967,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">97</div>
+                <div class="page-number"><span>97</span></div>
             </div>
         </div>
     </div>
@@ -5025,7 +5021,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">98</div>
+                <div class="page-number"><span>98</span></div>
             </div>
 
             <!-- 第99页 - 黑金刚级铁芯聚氨酯脚轮 -->
@@ -5074,7 +5070,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">99</div>
+                <div class="page-number"><span>99</span></div>
             </div>
         </div>
     </div>
@@ -5126,7 +5122,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">100</div>
+                <div class="page-number"><span>100</span></div>
             </div>
 
             <!-- 第101页 - 重型单弹簧减震铁芯聚氨酯脚轮 -->
@@ -5173,7 +5169,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">101</div>
+                <div class="page-number"><span>101</span></div>
             </div>
         </div>
     </div>
@@ -5223,7 +5219,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">102</div>
+                <div class="page-number"><span>102</span></div>
             </div>
 
             <!-- 第103页 - 轻型白尼龙脚轮 -->
@@ -5268,7 +5264,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">103</div>
+                <div class="page-number"><span>103</span></div>
             </div>
         </div>
     </div>
@@ -5322,7 +5318,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">104</div>
+                <div class="page-number"><span>104</span></div>
             </div>
 
             <!-- 第105页 - 轻型TPR橡胶静音脚轮插杆款 -->
@@ -5366,7 +5362,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">105</div>
+                <div class="page-number"><span>105</span></div>
             </div>
         </div>
     </div>
@@ -5417,7 +5413,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">106</div>
+                <div class="page-number"><span>106</span></div>
             </div>
 
             <!-- 第107页 - 精益管脚轮 -->
@@ -5463,7 +5459,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">107</div>
+                <div class="page-number"><span>107</span></div>
             </div>
         </div>
     </div>
@@ -5520,7 +5516,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">108</div>
+                <div class="page-number"><span>108</span></div>
             </div>
 
             <!-- 第109页 - 中型双轴承黑色聚氨酯脚轮 -->
@@ -5572,7 +5568,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">109</div>
+                <div class="page-number"><span>109</span></div>
             </div>
         </div>
     </div>
@@ -5629,7 +5625,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">110</div>
+                <div class="page-number"><span>110</span></div>
             </div>
 
             <!-- 第111页 - 中型双轴承/滑轴承白尼龙脚轮 -->
@@ -5681,7 +5677,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">111</div>
+                <div class="page-number"><span>111</span></div>
             </div>
         </div>
     </div>
@@ -5732,7 +5728,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">112</div>
+                <div class="page-number"><span>112</span></div>
             </div>
 
             <!-- 第113页 - 中型镀锌蓝色聚丙烯脚轮丝杆款 -->
@@ -5776,7 +5772,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">113</div>
+                <div class="page-number"><span>113</span></div>
             </div>
         </div>
     </div>
@@ -5823,7 +5819,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">114</div>
+                <div class="page-number"><span>114</span></div>
             </div>
 
             <!-- 第115页 - 中型镀锌黑色TPR橡胶脚轮平底款 -->
@@ -5870,7 +5866,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">115</div>
+                <div class="page-number"><span>115</span></div>
             </div>
         </div>
     </div>
@@ -5920,7 +5916,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">116</div>
+                <div class="page-number"><span>116</span></div>
             </div>
 
             <!-- 第117页 - 中型镀锌黑色TPR橡胶脚轮孔顶款 -->
@@ -5963,7 +5959,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">117</div>
+                <div class="page-number"><span>117</span></div>
             </div>
         </div>
     </div>
@@ -6015,7 +6011,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">118</div>
+                <div class="page-number"><span>118</span></div>
             </div>
 
             <!-- 第119页 - 中型电泳黑色聚氨酯脚轮丝杆款 -->
@@ -6060,7 +6056,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">119</div>
+                <div class="page-number"><span>119</span></div>
             </div>
         </div>
     </div>
@@ -6108,7 +6104,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">120</div>
+                <div class="page-number"><span>120</span></div>
             </div>
 
             <!-- 第121页 - 重型白色聚丙烯脚轮 -->
@@ -6155,7 +6151,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">121</div>
+                <div class="page-number"><span>121</span></div>
             </div>
         </div>
     </div>
@@ -6207,7 +6203,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">122</div>
+                <div class="page-number"><span>122</span></div>
             </div>
 
             <!-- 第123页 - 重型墨绿色聚氨酯脚轮 -->
@@ -6254,7 +6250,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">123</div>
+                <div class="page-number"><span>123</span></div>
             </div>
         </div>
     </div>
@@ -6306,7 +6302,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">124</div>
+                <div class="page-number"><span>124</span></div>
             </div>
 
             <!-- 第125页 - 重型咖啡色橡胶脚轮 -->
@@ -6353,7 +6349,7 @@
                     <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
                 </div>
 
-                <div class="page-number">125</div>
+                <div class="page-number"><span>125</span></div>
             </div>
         </div>
     </div>
