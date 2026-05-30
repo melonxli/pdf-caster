@@ -28,6 +28,7 @@
             height: 1350px;
             max-width: 1980px;
             margin: 0 auto;
+            background-color: #fff;
         }
 
         /* 新页面容器 - 上下间隔 */
@@ -35,12 +36,7 @@
             width: 100%;
             height: 1350px;
             max-width: 1980px;
-            margin: 10px auto 0;
-            background-color: #F3F3F1;
-        }
-
-        /* 新页面容器 - 上下间隔 */
-        .container-wrapper-fff {
+            margin: 5px auto 0;
             background-color: #fff;
         }
 
@@ -98,7 +94,7 @@
         }
 
         .features h3 {
-            font-size: 16px;
+            font-size: 14px;
             margin-bottom: 8px;
         }
 
@@ -108,9 +104,15 @@
         }
 
         .features li {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 1.6;
             position: relative;
+        }
+
+        .features li::before {
+            content: "●";
+            position: absolute;
+            left: -12px;
         }
 
         /* 产品图片区域 */
@@ -134,7 +136,7 @@
         }
 
         .specs-header {
-            font-size: 16px;
+            font-size: 13px;
             margin-bottom: 10px;
         }
 
@@ -142,7 +144,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 16px;
+            font-size: 11px;
         }
 
         table tbody {
@@ -170,7 +172,7 @@
 
         /* 底部备注 */
         .note {
-            font-size: 14px;
+            font-size: 10px;
             text-align: center;
         }
 
@@ -194,9 +196,6 @@
             font-size: 24px;
             font-weight: normal;
         }
-        .font-14 {
-            font-size: 14px;
-        }
 
         /* 响应式设计 */
         /* @media (max-width: 1000px) {
@@ -214,379 +213,377 @@
 </head>
 
 <body>
-    <div class="container-wrapper container-wrapper-fff">
-        <div class="container">
-            <!-- 第02页 - 条纹带盖固定脚杯 -->
-            <div class="page page-02">
-                <div class="corner-block"></div>
-                <div class="title-bar">
-                    <h1>条纹带盖固定脚杯</h1>
-                </div>
-                <div class="content">
-                    <div class="left-section">
-                        <div class="features">
-                            <h3>特点</h3>
-                            <ul>
-                                <li>底盘可采用碳钢镀铬或304不锈钢材质，螺杆可选用镀锌、镀铬、304不锈钢，耐腐蚀性能良好，接触面积大并配有脚垫，防震防滑性能良好。</li>
-                            </ul>
-                        </div>
-                        <div class="product-images">
-                            <!-- 完整的第02页产品图片（包含产品图和尺寸图） -->
-                            <img alt="条纹带盖固定脚杯产品图和尺寸图" class="product-full-img" src="images/02.png" />
-                        </div>
-                    </div>
-                    <div class="right-section">
-                        <div class="specs-header">型号规格：D-M-L1</div>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>D<br />底盘直径<br />(mm)</th>
-                                    <th>M<br />螺杆直径<br />(mm)</th>
-                                    <th>L1<br />螺杆牙长<br />(mm)</th>
-                                    <th>单个承重<br />(kg / lb)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td rowspan="6">60</td>
-                                    <td>8</td>
-                                    <td>50/100</td>
-                                    <td>220kg / 485lb</td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>50/100</td>
-                                    <td>250kg / 551lb</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>400kg / 882lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>450kg / 992lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200</td>
-                                    <td>600kg / 1323lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="5">80</td>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>500kg / 1102lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>800kg / 1764lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="5">100kg / 220lb</td>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>500kg / 1102lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>800kg / 1764lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="5">120kg / 265lb</td>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>500kg / 1102lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>600kg / 1323lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1500kg / 3307lb</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
-                    </div>
-                </div>
-                <div class="page-number"><span>02</span></div>
+    <div class="container">
+        <!-- 第02页 - 条纹带盖固定脚杯 -->
+        <div class="page page-02">
+            <div class="corner-block"></div>
+            <div class="title-bar">
+                <h1>条纹带盖固定脚杯</h1>
             </div>
-            <!-- 第03页 - 碳钢固定脚杯 -->
-            <div class="page page-03">
-                <div class="corner-block"></div>
-                <div class="title-bar">
-                    <h1>碳钢固定脚杯</h1>
-                </div>
-                <div class="content">
-                    <div class="left-section">
-                        <div class="features">
-                            <h3>特点</h3>
-                            <ul>
-                                <li>底盘采用碳钢镀铬材质，螺杆可选用镀锌、镀镍、镀铬，耐腐蚀性能良好，接触面积大并配有脚垫，防震防滑性能良好。</li>
-                            </ul>
-                        </div>
-                        <div class="product-images">
-                            <!-- 完整的第03页产品图片（包含产品图和尺寸图） -->
-                            <img alt="碳钢固定脚杯产品图和尺寸图" class="product-full-img" src="images/03.png" />
-                        </div>
+            <div class="content">
+                <div class="left-section">
+                    <div class="features">
+                        <h3>特点</h3>
+                        <ul>
+                            <li>底盘可采用碳钢镀铬或304不锈钢材质，螺杆可选用镀锌、镀铬、304不锈钢，耐腐蚀性能良好，接触面积大并配有脚垫，防震防滑性能良好。</li>
+                        </ul>
                     </div>
-                    <div class="right-section">
-                        <div class="specs-header">型号规格：D-M-L1</div>
-                        <table class="font-14">
-                            <thead>
-                                <tr>
-                                    <th>D<br />底盘直径<br />(mm)</th>
-                                    <th>M<br />螺杆直径<br />(mm)</th>
-                                    <th>L1<br />螺杆牙长<br />(mm)</th>
-                                    <th>单个承重<br />(kg / lb)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td rowspan="3">40</td>
-                                    <td>8</td>
-                                    <td>50/100/120</td>
-                                    <td>200kg / 441lb</td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>50/100/120</td>
-                                    <td>220kg / 485lb</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>250kg / 551lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="4">50</td>
-                                    <td>8</td>
-                                    <td>50/100/120</td>
-                                    <td>200kg / 441lb</td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>50/100/120</td>
-                                    <td>220kg / 485lb</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>50/100/120/150</td>
-                                    <td>250kg / 551lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>120/150</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="6">60</td>
-                                    <td>8</td>
-                                    <td>120kg / 265lb</td>
-                                    <td>220kg / 485lb</td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>50/100/120/150</td>
-                                    <td>250kg / 551lb</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>50/100/120/150/200</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>100/120/150/200</td>
-                                    <td>350kg / 772lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>75/100/120/150/200</td>
-                                    <td>400kg / 882lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>450kg / 992lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="6">80</td>
-                                    <td>12</td>
-                                    <td>50/100/120/150/200</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>100/120/150/200</td>
-                                    <td>400kg / 882lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>500kg / 1102lb</td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>120/150</td>
-                                    <td>600kg / 1323lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>800kg / 1764lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="7">100kg / 220lb</td>
-                                    <td>12</td>
-                                    <td>100/120/150/200</td>
-                                    <td>300kg / 661lb</td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>100kg / 220lb</td>
-                                    <td>400kg / 882lb</td>
-                                </tr>
-                                <tr>
-                                    <td>16</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>500kg / 1102lb</td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>100/150</td>
-                                    <td>600kg / 1323lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>800kg / 1764lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="5">120kg / 265lb</td>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>600kg / 1323lb</td>
-                                </tr>
-                                <tr>
-                                    <td>18</td>
-                                    <td>150kg / 331lb</td>
-                                    <td>800kg / 1764lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>1000kg / 2205lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200/250</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1500kg / 3307lb</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="4">150kg / 331lb</td>
-                                    <td>16</td>
-                                    <td>100/120/150/200</td>
-                                    <td>700kg / 1543lb</td>
-                                </tr>
-                                <tr>
-                                    <td>20</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1200kg / 2646lb</td>
-                                </tr>
-                                <tr>
-                                    <td>24</td>
-                                    <td>100/120/150/200</td>
-                                    <td>1500kg / 3307lb</td>
-                                </tr>
-                                <tr>
-                                    <td>30</td>
-                                    <td>100/120/150/200</td>
-                                    <td>2000kg / 4409lb</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
+                    <div class="product-images">
+                        <!-- 完整的第02页产品图片（包含产品图和尺寸图） -->
+                        <img alt="条纹带盖固定脚杯产品图和尺寸图" class="product-full-img" src="images/02.png" />
                     </div>
                 </div>
-                <div class="page-number"><span>03</span></div>
+                <div class="right-section">
+                    <div class="specs-header">型号规格：D-M-L1</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D<br />底盘直径<br />(mm)</th>
+                                <th>M<br />螺杆直径<br />(mm)</th>
+                                <th>L1<br />螺杆牙长<br />(mm)</th>
+                                <th>单个承重<br />(kg / lb)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="6">60</td>
+                                <td>8</td>
+                                <td>50/100</td>
+                                <td>220kg / 485lb</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>50/100</td>
+                                <td>250kg / 551lb</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>400kg / 882lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>450kg / 992lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200</td>
+                                <td>600kg / 1323lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">80</td>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>500kg / 1102lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>800kg / 1764lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">100</td>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>500kg / 1102lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>800kg / 1764lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">120</td>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>500kg / 1102lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>600kg / 1323lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>1500kg / 3307lb</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
+                </div>
             </div>
+            <div class="page-number"><span>02</span></div>
+        </div>
+        <!-- 第03页 - 碳钢固定脚杯 -->
+        <div class="page page-03">
+            <div class="corner-block"></div>
+            <div class="title-bar">
+                <h1>碳钢固定脚杯</h1>
+            </div>
+            <div class="content">
+                <div class="left-section">
+                    <div class="features">
+                        <h3>特点</h3>
+                        <ul>
+                            <li>底盘采用碳钢镀铬材质，螺杆可选用镀锌、镀镍、镀铬，耐腐蚀性能良好，接触面积大并配有脚垫，防震防滑性能良好。</li>
+                        </ul>
+                    </div>
+                    <div class="product-images">
+                        <!-- 完整的第03页产品图片（包含产品图和尺寸图） -->
+                        <img alt="碳钢固定脚杯产品图和尺寸图" class="product-full-img" src="images/03.png" />
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="specs-header">型号规格：D-M-L1</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D<br />底盘直径<br />(mm)</th>
+                                <th>M<br />螺杆直径<br />(mm)</th>
+                                <th>L1<br />螺杆牙长<br />(mm)</th>
+                                <th>单个承重<br />(kg / lb)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">40</td>
+                                <td>8</td>
+                                <td>50/100/120</td>
+                                <td>200kg / 441lb</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>50/100/120</td>
+                                <td>220kg / 485lb</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>250kg / 551lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">50</td>
+                                <td>8</td>
+                                <td>50/100/120</td>
+                                <td>200kg / 441lb</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>50/100/120</td>
+                                <td>220kg / 485lb</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>50/100/120/150</td>
+                                <td>250kg / 551lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>120/150</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">60</td>
+                                <td>8</td>
+                                <td>120</td>
+                                <td>220kg / 485lb</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>50/100/120/150</td>
+                                <td>250kg / 551lb</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>50/100/120/150/200</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>100/120/150/200</td>
+                                <td>350kg / 772lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>75/100/120/150/200</td>
+                                <td>400kg / 882lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>450kg / 992lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">80</td>
+                                <td>12</td>
+                                <td>50/100/120/150/200</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>100/120/150/200</td>
+                                <td>400kg / 882lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200/250</td>
+                                <td>500kg / 1102lb</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>120/150</td>
+                                <td>600kg / 1323lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200/250</td>
+                                <td>800kg / 1764lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200/250</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="7">100</td>
+                                <td>12</td>
+                                <td>100/120/150/200</td>
+                                <td>300kg / 661lb</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>100</td>
+                                <td>400kg / 882lb</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>100/120/150/200/250</td>
+                                <td>500kg / 1102lb</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>100/150</td>
+                                <td>600kg / 1323lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200/250</td>
+                                <td>800kg / 1764lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200/250</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">120</td>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>600kg / 1323lb</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>150</td>
+                                <td>800kg / 1764lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200/250</td>
+                                <td>1000kg / 2205lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200/250</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>1500kg / 3307lb</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">150</td>
+                                <td>16</td>
+                                <td>100/120/150/200</td>
+                                <td>700kg / 1543lb</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>100/120/150/200</td>
+                                <td>1200kg / 2646lb</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>100/120/150/200</td>
+                                <td>1500kg / 3307lb</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>100/120/150/200</td>
+                                <td>2000kg / 4409lb</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="note">注：尺寸为手工测量，由于测量方式不同，难免有细微误差，数据仅供参考，敬请原谅</div>
+                </div>
+            </div>
+            <div class="page-number"><span>03</span></div>
         </div>
     </div>
     <!-- 第04页和第05页 - 左右布局，与02-03页相同，上下间隔5px -->
-    <div class="container-wrapper container-wrapper-fff">
+    <div class="container-wrapper">
         <div class="container">
             <!-- 第04页 -->
             <div class="page page-04">
@@ -608,7 +605,7 @@
                     </div>
                     <div class="right-section">
                         <div class="specs-header">型号规格：D-M-L1</div>
-                        <table class="font-14">
+                        <table>
                             <thead>
                                 <tr>
                                     <th>D<br />底盘直径<br />(mm)</th>
@@ -693,7 +690,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="7">100kg / 220lb</td>
+                                    <td rowspan="7">100</td>
                                     <td>8</td>
                                     <td>50/100</td>
                                     <td>250kg / 551lb</td>
@@ -729,7 +726,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">120kg / 265lb</td>
+                                    <td rowspan="5">120</td>
                                     <td>12</td>
                                     <td>50/100/120/150</td>
                                     <td>400kg / 882lb</td>
@@ -755,7 +752,7 @@
                                     <td>1500kg / 3307lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">150kg / 331lb</td>
+                                    <td rowspan="4">150</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>700kg / 1543lb</td>
@@ -839,7 +836,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">100kg / 220lb</td>
+                                    <td rowspan="5">100</td>
                                     <td>12</td>
                                     <td>100/120/150</td>
                                     <td>300kg / 661lb</td>
@@ -874,7 +871,7 @@
         </div>
     </div>
     <!-- 第06页和第07页 - 左右布局 -->
-    <div class="container-wrapper container-wrapper-fff">
+    <div class="container-wrapper">
         <div class="container">
             <!-- 第06页 - 实心螺纹固定脚杯 -->
             <div class="page page-06">
@@ -938,7 +935,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">100kg / 220lb</td>
+                                    <td rowspan="5">100</td>
                                     <td>12</td>
                                     <td>100/120/150</td>
                                     <td>300kg / 661lb</td>
@@ -1022,7 +1019,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">100kg / 220lb</td>
+                                    <td rowspan="4">100</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>500kg / 1102lb</td>
@@ -1043,7 +1040,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">120kg / 265lb</td>
+                                    <td rowspan="4">120</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>600kg / 1323lb</td>
@@ -1064,7 +1061,7 @@
                                     <td>1500kg / 3307lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">150kg / 331lb</td>
+                                    <td rowspan="4">150</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>700kg / 1543lb</td>
@@ -1094,7 +1091,7 @@
         </div>
     </div>
     <!-- 第08页和第09页 - 左右布局 -->
-    <div class="container-wrapper container-wrapper-fff">
+    <div class="container-wrapper">
         <div class="container">
             <!-- 第08页 - 冲压底盘固定脚杯 -->
             <div class="page page-08">
@@ -1179,7 +1176,7 @@
                                     <td>1200kg / 2646lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">100kg / 220lb</td>
+                                    <td rowspan="5">100</td>
                                     <td>16</td>
                                     <td>100/120/150/200/250</td>
                                     <td>500kg / 1102lb</td>
@@ -1311,7 +1308,7 @@
                                     <td>400kg / 882lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">100kg / 220lb</td>
+                                    <td rowspan="5">100</td>
                                     <td>12</td>
                                     <td>50/100/120/150</td>
                                     <td>210kg / 463lb</td>
@@ -1337,7 +1334,7 @@
                                     <td>550kg / 1213lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="5">125kg / 276lb</td>
+                                    <td rowspan="5">125</td>
                                     <td>12</td>
                                     <td>50/100/120/150</td>
                                     <td>250kg / 551lb</td>
@@ -1372,7 +1369,7 @@
         </div>
     </div>
     <!-- 第10页和第11页 - 左右布局 -->
-    <div class="container-wrapper container-wrapper-fff">
+    <div class="container-wrapper">
         <div class="container">
             <!-- 第10页 - 尼龙万向脚杯 -->
             <div class="page page-10">
@@ -1474,7 +1471,7 @@
                                     <td>500kg / 1102lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">100kg / 220lb</td>
+                                    <td rowspan="4">100</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>300kg / 661lb</td>
@@ -1495,7 +1492,7 @@
                                     <td>550kg / 1213lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="4">125kg / 276lb</td>
+                                    <td rowspan="4">125</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>300kg / 661lb</td>
@@ -1580,7 +1577,7 @@
                                     <td>1000kg / 2205lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">100kg / 220lb</td>
+                                    <td rowspan="3">100</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>500kg / 1102lb</td>
@@ -1596,7 +1593,7 @@
                                     <td>1000kg / 2205lb</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">120kg / 265lb</td>
+                                    <td rowspan="3">120</td>
                                     <td>16</td>
                                     <td>100/120/150/200</td>
                                     <td>600kg / 1323lb</td>
@@ -2337,7 +2334,7 @@
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>8</td>
-                                <td>107kg / 236lb</td>
+                                <td>107</td>
                                 <td>75</td>
                                 <td>55</td>
                             </tr>
@@ -2348,7 +2345,7 @@
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>8</td>
-                                <td>107kg / 236lb</td>
+                                <td>107</td>
                                 <td>75</td>
                                 <td>55</td>
                             </tr>
@@ -2670,7 +2667,7 @@
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>9</td>
-                                <td>109kg / 240lb</td>
+                                <td>109</td>
                                 <td>62</td>
                                 <td>32</td>
                             </tr>
@@ -2681,7 +2678,7 @@
                                 <td>97*97</td>
                                 <td>70*70</td>
                                 <td>11</td>
-                                <td>122kg / 269lb</td>
+                                <td>122</td>
                                 <td>75</td>
                                 <td>32</td>
                             </tr>
@@ -2692,7 +2689,7 @@
                                 <td>97*97</td>
                                 <td>70*70</td>
                                 <td>11</td>
-                                <td>123kg / 271lb</td>
+                                <td>123</td>
                                 <td>75</td>
                                 <td>32</td>
                             </tr>
@@ -2703,7 +2700,7 @@
                                 <td>97*97</td>
                                 <td>70*70</td>
                                 <td>12</td>
-                                <td>120kg / 265lb</td>
+                                <td>120</td>
                                 <td>90</td>
                                 <td>57</td>
                             </tr>
@@ -2777,7 +2774,7 @@
                                 <td>500kg / 1102lb</td>
                                 <td>40</td>
                                 <td>M14</td>
-                                <td>109kg / 240lb</td>
+                                <td>109</td>
                                 <td>62</td>
                                 <td>32</td>
                             </tr>
@@ -2787,7 +2784,7 @@
                                 <td>750kg / 1653lb</td>
                                 <td>40</td>
                                 <td>M14</td>
-                                <td>122kg / 269lb</td>
+                                <td>122</td>
                                 <td>75</td>
                                 <td>32</td>
                             </tr>
@@ -2797,7 +2794,7 @@
                                 <td>1000kg / 2205lb</td>
                                 <td>40</td>
                                 <td>M14</td>
-                                <td>123kg / 271lb</td>
+                                <td>123</td>
                                 <td>75</td>
                                 <td>32</td>
                             </tr>
@@ -2860,7 +2857,7 @@
                                 <td>参考尺寸图</td>
                                 <td>参考尺寸图</td>
                                 <td>参考尺寸图</td>
-                                <td>109kg / 240lb</td>
+                                <td>109</td>
                                 <td>62</td>
                                 <td>32</td>
                             </tr>
@@ -2871,7 +2868,7 @@
                                 <td>参考尺寸图</td>
                                 <td>参考尺寸图</td>
                                 <td>参考尺寸图</td>
-                                <td>122kg / 269lb</td>
+                                <td>122</td>
                                 <td>75</td>
                                 <td>32</td>
                             </tr>
@@ -3244,7 +3241,7 @@
                                 <td>54</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>80kg / 176lb</td>
+                                <td>80</td>
                                 <td>110*82</td>
                                 <td>85*60</td>
                                 <td>11</td>
@@ -3263,7 +3260,7 @@
                                 <td>65</td>
                                 <td>50</td>
                                 <td>600kg / 1323lb</td>
-                                <td>95kg / 209lb</td>
+                                <td>95</td>
                                 <td>110*82</td>
                                 <td>85*60</td>
                                 <td>11</td>
@@ -3273,7 +3270,7 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>100*82</td>
                                 <td>76*56</td>
                                 <td>11</td>
@@ -3282,26 +3279,26 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>110*82</td>
                                 <td>85*60</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td rowspan="2">4寸超重型牛仔轮<br />（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>850kg / 1874lb</td>
-                                <td>135kg / 298lb</td>
+                                <td>135</td>
                                 <td>100*82</td>
                                 <td>76*56</td>
                                 <td>11</td>
                             </tr>
                             <tr>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>850kg / 1874lb</td>
-                                <td>135kg / 298lb</td>
+                                <td>135</td>
                                 <td>110*82</td>
                                 <td>85*60</td>
                                 <td>11</td>
@@ -3364,7 +3361,7 @@
                                 <td>54</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>80kg / 176lb</td>
+                                <td>80</td>
                                 <td>100*100</td>
                                 <td>80*80</td>
                                 <td>11</td>
@@ -3383,7 +3380,7 @@
                                 <td>65</td>
                                 <td>50</td>
                                 <td>600kg / 1323lb</td>
-                                <td>95kg / 209lb</td>
+                                <td>95</td>
                                 <td>100*100</td>
                                 <td>80*80</td>
                                 <td>11</td>
@@ -3393,7 +3390,7 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>11</td>
@@ -3402,26 +3399,26 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>100*100</td>
                                 <td>80*80</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td rowspan="2">4寸超重型牛仔轮<br />（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>850kg / 1874lb</td>
-                                <td>135kg / 298lb</td>
+                                <td>135</td>
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>11</td>
                             </tr>
                             <tr>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>850kg / 1874lb</td>
-                                <td>135kg / 298lb</td>
+                                <td>135</td>
                                 <td>100*100</td>
                                 <td>80*80</td>
                                 <td>11</td>
@@ -3505,7 +3502,7 @@
                                 <td>75</td>
                                 <td>45</td>
                                 <td>350kg / 772lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>105*80</td>
                                 <td>83*60</td>
                                 <td>9</td>
@@ -3584,7 +3581,7 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>110kg / 243lb</td>
+                                <td>110</td>
                                 <td>100*100</td>
                                 <td>78*78</td>
                                 <td>10</td>
@@ -3654,7 +3651,7 @@
                                 <td>75</td>
                                 <td>45</td>
                                 <td>360kg / 794lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>105*80</td>
                                 <td>83*60</td>
                                 <td>9</td>
@@ -3708,27 +3705,27 @@
                                 <td>75</td>
                                 <td>58</td>
                                 <td>1250kg / 2756lb</td>
-                                <td>109kg / 240lb</td>
+                                <td>109</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>4寸工业吨级脚轮<br />（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>58</td>
                                 <td>1250kg / 2756lb</td>
-                                <td>134kg / 295lb</td>
+                                <td>134</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>5寸工业吨级脚轮<br />（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>58</td>
                                 <td>1600kg / 3527lb</td>
-                                <td>159kg / 351lb</td>
+                                <td>159</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
@@ -3777,27 +3774,27 @@
                                 <td>75</td>
                                 <td>56</td>
                                 <td>1350kg / 2976lb</td>
-                                <td>109kg / 240lb</td>
+                                <td>109</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>4寸工业吨级双排尼龙轮<br />（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>56</td>
                                 <td>1350kg / 2976lb</td>
-                                <td>134kg / 295lb</td>
+                                <td>134</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>5寸工业吨级双排尼龙轮<br />（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>56</td>
                                 <td>1700kg / 3748lb</td>
-                                <td>159kg / 351lb</td>
+                                <td>159</td>
                                 <td>110*90</td>
                                 <td>85*61</td>
                                 <td>11</td>
@@ -3861,7 +3858,7 @@
                                 <td>75</td>
                                 <td>45</td>
                                 <td>300kg / 661lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>105*80</td>
                                 <td>83*60</td>
                                 <td>8</td>
@@ -3881,7 +3878,7 @@
                                 <td>75</td>
                                 <td>45</td>
                                 <td>300kg / 661lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>90*90</td>
                                 <td>70*70</td>
                                 <td>10</td>
@@ -3901,7 +3898,7 @@
                                 <td>75</td>
                                 <td>45</td>
                                 <td>300kg / 661lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>120*120</td>
                                 <td>95*95</td>
                                 <td>10</td>
@@ -3970,7 +3967,7 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>108kg / 238lb</td>
+                                <td>108</td>
                                 <td>110*82</td>
                                 <td>80*60</td>
                                 <td>10</td>
@@ -3980,7 +3977,7 @@
                                 <td>75</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>115kg / 254lb</td>
+                                <td>115</td>
                                 <td>100*100</td>
                                 <td>80*80</td>
                                 <td>11</td>
@@ -4064,17 +4061,17 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>80kg / 176lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
                             </tr>
                             <tr>
                                 <td>4寸枣红轮长方形带调节脚杯</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -4136,7 +4133,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4144,10 +4141,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型灰色TPR橡胶轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4155,10 +4152,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型灰色TPR橡胶轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4226,7 +4223,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4234,10 +4231,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型枣红聚氨酯轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4245,10 +4242,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型枣红聚氨酯轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4311,7 +4308,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4319,10 +4316,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型白尼龙轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4330,10 +4327,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型白尼龙轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4401,7 +4398,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4409,10 +4406,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型橙色通花轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4420,10 +4417,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型橙色通花轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -4508,7 +4505,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -4560,40 +4557,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>280kg / 617lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>320kg / 705lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -4639,40 +4636,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>270kg / 595lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>310kg / 683lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>390kg / 860lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>440kg / 970lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -4723,40 +4720,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型白尼龙轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>42</td>
                                 <td>280kg / 617lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型白尼龙轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>42</td>
                                 <td>320kg / 705lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型白尼龙轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>42</td>
                                 <td>400kg / 882lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型白尼龙轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>42</td>
                                 <td>450kg / 992lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>114*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -4803,40 +4800,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型国标款韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>260kg / 573lb</td>
-                                <td>140kg / 309lb</td>
+                                <td>140</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型国标款韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>270kg / 595lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型国标款韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>280kg / 617lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型国标款韩式红色聚氨酯轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>290kg / 639lb</td>
-                                <td>225kg / 496lb</td>
+                                <td>225</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
@@ -4888,40 +4885,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型国标款灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>260kg / 573lb</td>
-                                <td>140kg / 309lb</td>
+                                <td>140</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型国标款灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>270kg / 595lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型国标款灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>280kg / 617lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型国标款灰色TPR橡胶轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>290kg / 639lb</td>
-                                <td>225kg / 496lb</td>
+                                <td>225</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
@@ -4967,40 +4964,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型国标款白尼龙轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>42</td>
                                 <td>260kg / 573lb</td>
-                                <td>140kg / 309lb</td>
+                                <td>140</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型国标款白尼龙轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>42</td>
                                 <td>270kg / 595lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型国标款白尼龙轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>42</td>
                                 <td>280kg / 617lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型国标款白尼龙轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>42</td>
                                 <td>290kg / 639lb</td>
-                                <td>225kg / 496lb</td>
+                                <td>225</td>
                                 <td>110*95</td>
                                 <td>85*70</td>
                                 <td>10</td>
@@ -5056,7 +5053,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5064,10 +5061,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型黄色聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5075,10 +5072,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型黄色聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5130,7 +5127,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5138,10 +5135,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型黑色TPR橡胶脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5149,10 +5146,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型黑色TPR橡胶脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5209,7 +5206,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5217,10 +5214,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型枣红聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5228,10 +5225,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型枣红聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*64</td>
                                 <td>74*45</td>
                                 <td>8</td>
@@ -5278,40 +5275,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型黄色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>270kg / 595lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型黄色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>320kg / 705lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型黄色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>380kg / 838lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型黄色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>430kg / 948lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -5362,40 +5359,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型黑色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>260kg / 573lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型黑色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>310kg / 683lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型黑色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>370kg / 816lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型黑色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>420kg / 926lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -5441,40 +5438,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>45</td>
                                 <td>280kg / 617lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>45</td>
                                 <td>330kg / 728lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>45</td>
                                 <td>400kg / 882lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>45</td>
                                 <td>450kg / 992lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -5604,7 +5601,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5612,10 +5609,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型防静电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>95kg / 209lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5623,10 +5620,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型防静电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5678,40 +5675,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型防静电脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>240kg / 529lb</td>
-                                <td>144kg / 317lb</td>
+                                <td>144</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>5寸重型防静电脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>6寸重型防静电脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>350kg / 772lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>8寸重型防静电脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>244kg / 538lb</td>
+                                <td>244</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
@@ -5830,7 +5827,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5838,10 +5835,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型导电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>95kg / 209lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5849,10 +5846,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型导电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5899,40 +5896,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型导电脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>240kg / 529lb</td>
-                                <td>144kg / 317lb</td>
+                                <td>144</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>5寸重型导电脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>6寸重型导电脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>350kg / 772lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
                             </tr>
                             <tr>
                                 <td>8寸重型导电脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>244kg / 538lb</td>
+                                <td>244</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>11</td>
@@ -5988,7 +5985,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -5996,10 +5993,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型棕色耐高温双轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6007,10 +6004,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型棕色耐高温双轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6062,7 +6059,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6070,10 +6067,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型黑色耐高温双轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6081,10 +6078,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型黑色耐高温双轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6136,40 +6133,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>360kg / 794lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>5寸重型棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>6寸重型棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>8寸重型棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
@@ -6215,40 +6212,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>360kg / 794lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>5寸重型黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>6寸重型黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>8寸重型黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>13</td>
@@ -6304,7 +6301,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6312,10 +6309,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型棕色耐高温无轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6323,10 +6320,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型棕色耐高温无轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6378,7 +6375,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6386,10 +6383,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型黑色耐高温无轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6397,10 +6394,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型黑色耐高温无轴承脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>9</td>
@@ -6532,7 +6529,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6540,10 +6537,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢灰色TPR橡胶脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6551,10 +6548,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢灰色TPR橡胶脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6622,7 +6619,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6630,10 +6627,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢白尼龙脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6641,10 +6638,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢白尼龙脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6707,7 +6704,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6715,10 +6712,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢枣红聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6726,10 +6723,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢枣红聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -6781,40 +6778,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>42</td>
                                 <td>280kg / 617lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>42</td>
                                 <td>320kg / 705lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>42</td>
                                 <td>400kg / 882lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢白尼龙脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>42</td>
                                 <td>450kg / 992lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -6861,40 +6858,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型灰色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>270kg / 595lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型灰色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>310kg / 683lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型灰色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>390kg / 860lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型灰色TPR橡胶脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>440kg / 970lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -6946,40 +6943,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢韩式红色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>280kg / 617lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢韩式红色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>320kg / 705lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢韩式红色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢韩式红色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -7163,7 +7160,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7171,10 +7168,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢黑色TPR带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7182,10 +7179,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢黑色TPR带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7243,7 +7240,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7251,10 +7248,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢黄色聚氨酯带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7262,10 +7259,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢黄色聚氨酯带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7318,7 +7315,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7326,10 +7323,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢枣红聚氨酯带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7337,10 +7334,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢枣红聚氨酯带盖脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7397,7 +7394,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7405,10 +7402,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢棕色耐高温脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7416,10 +7413,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢棕色耐高温脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7471,7 +7468,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7479,10 +7476,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢黑色耐高温脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7490,10 +7487,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢黑色耐高温脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7545,40 +7542,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>360kg / 794lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢棕色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -7624,40 +7621,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>360kg / 794lb</td>
-                                <td>142kg / 313lb</td>
+                                <td>142</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>166kg / 366lb</td>
+                                <td>166</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>188kg / 414lb</td>
+                                <td>188</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢黑色耐高温脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115*100</td>
                                 <td>84*71</td>
                                 <td>10</td>
@@ -7713,7 +7710,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>90kg / 198lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7721,10 +7718,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型不锈钢防静电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>95kg / 209lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7732,10 +7729,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型不锈钢防静电脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>95*64</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -7783,40 +7780,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢抗冲击铝芯PU脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>144kg / 317lb</td>
+                                <td>144</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢抗冲击铝芯PU脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢抗冲击铝芯PU脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>191kg / 421lb</td>
+                                <td>191</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢抗冲击铝芯PU脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>800kg / 1764lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
@@ -7868,40 +7865,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型不锈钢抗冲击MC尼龙脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>144kg / 317lb</td>
+                                <td>144</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型不锈钢抗冲击MC尼龙脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>500kg / 1102lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型不锈钢抗冲击MC尼龙脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>650kg / 1433lb</td>
-                                <td>191kg / 421lb</td>
+                                <td>191</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型不锈钢抗冲击MC尼龙脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>800kg / 1764lb</td>
-                                <td>241kg / 531lb</td>
+                                <td>241</td>
                                 <td>115.5*110</td>
                                 <td>92/76*76/67</td>
                                 <td>12</td>
@@ -7948,37 +7945,37 @@
                         <tbody>
                             <tr>
                                 <td>6寸超重型不锈钢抗冲击MC尼龙脚轮（定向/万向）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>76</td>
                                 <td>2000kg / 4409lb</td>
-                                <td>191kg / 421lb</td>
+                                <td>191</td>
                                 <td>184*133</td>
                                 <td>155/133*86/105</td>
                                 <td>20</td>
                             </tr>
                             <tr>
                                 <td>8寸超重型不锈钢抗冲击MC尼龙脚轮（定向/万向）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>76</td>
                                 <td>2500kg / 5512lb</td>
-                                <td>257kg / 567lb</td>
+                                <td>257</td>
                                 <td>184*133</td>
                                 <td>155/133*86/105</td>
                                 <td>20</td>
                             </tr>
                             <tr>
                                 <td>10寸超重型不锈钢抗冲击MC尼龙脚轮（定向/万向）</td>
-                                <td>250kg / 551lb</td>
+                                <td>250</td>
                                 <td>76</td>
                                 <td>3000kg / 6614lb</td>
-                                <td>292kg / 644lb</td>
+                                <td>292</td>
                                 <td>184*133</td>
                                 <td>155/133*86/105</td>
                                 <td>20</td>
                             </tr>
                             <tr>
                                 <td>12寸超重型不锈钢抗冲击MC尼龙脚轮（定向/万向）</td>
-                                <td>300kg / 661lb</td>
+                                <td>300</td>
                                 <td>76</td>
                                 <td>3500kg / 7716lb</td>
                                 <td>342.5</td>
@@ -8111,7 +8108,7 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>105kg / 231lb</td>
+                                <td>105</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -8119,10 +8116,10 @@
                             </tr>
                             <tr>
                                 <td>4寸中型铁芯聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>130kg / 287lb</td>
+                                <td>130</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -8130,10 +8127,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型铁芯聚氨酯脚轮（定向/万向/刹车/丝杆）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>140kg / 309lb</td>
-                                <td>155kg / 342lb</td>
+                                <td>155</td>
                                 <td>92*62</td>
                                 <td>74*45</td>
                                 <td>8.5</td>
@@ -8185,40 +8182,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>144kg / 317lb</td>
+                                <td>144</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>5寸重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>350kg / 772lb</td>
-                                <td>165kg / 364lb</td>
+                                <td>165</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>6寸重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>380kg / 838lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>10</td>
                             </tr>
                             <tr>
                                 <td>8寸重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>244kg / 538lb</td>
+                                <td>244</td>
                                 <td>114*100</td>
                                 <td>85*72</td>
                                 <td>10</td>
@@ -8266,44 +8263,44 @@
                         <tbody>
                             <tr>
                                 <td>4寸超重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>800kg / 1764lb</td>
                                 <td>400kg / 882lb</td>
-                                <td>151kg / 333lb</td>
+                                <td>151</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>5寸超重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>900kg / 1984lb</td>
                                 <td>500kg / 1102lb</td>
-                                <td>172kg / 379lb</td>
+                                <td>172</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>6寸超重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>1000kg / 2205lb</td>
                                 <td>600kg / 1323lb</td>
-                                <td>197kg / 434lb</td>
+                                <td>197</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>8寸超重型铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>1200kg / 2646lb</td>
                                 <td>700kg / 1543lb</td>
-                                <td>251kg / 553lb</td>
+                                <td>251</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
@@ -8356,44 +8353,44 @@
                         <tbody>
                             <tr>
                                 <td>4寸白金刚级尼龙脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>900kg / 1984lb</td>
                                 <td>500kg / 1102lb</td>
-                                <td>151kg / 333lb</td>
+                                <td>151</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>5寸白金刚级尼龙脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>1000kg / 2205lb</td>
                                 <td>600kg / 1323lb</td>
-                                <td>172kg / 379lb</td>
+                                <td>172</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>6寸白金刚级尼龙脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>1100kg / 2425lb</td>
                                 <td>700kg / 1543lb</td>
-                                <td>197kg / 434lb</td>
+                                <td>197</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>8寸白金刚级尼龙脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>1400kg / 3086lb</td>
                                 <td>800kg / 1764lb</td>
-                                <td>251kg / 553lb</td>
+                                <td>251</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
@@ -8441,44 +8438,44 @@
                         <tbody>
                             <tr>
                                 <td>4寸黑金刚级铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>1400kg / 3086lb</td>
                                 <td>800kg / 1764lb</td>
-                                <td>154kg / 340lb</td>
+                                <td>154</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>5寸黑金刚级铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>1500kg / 3307lb</td>
                                 <td>900kg / 1984lb</td>
-                                <td>175kg / 386lb</td>
+                                <td>175</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>6寸黑金刚级铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>1600kg / 3527lb</td>
                                 <td>1000kg / 2205lb</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
                             </tr>
                             <tr>
                                 <td>8寸黑金刚级铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>1800kg / 3968lb</td>
                                 <td>1200kg / 2646lb</td>
-                                <td>254kg / 560lb</td>
+                                <td>254</td>
                                 <td>137*110</td>
                                 <td>105*75</td>
                                 <td>15</td>
@@ -8530,7 +8527,7 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型双弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
                                 <td>176/196</td>
@@ -8540,7 +8537,7 @@
                             </tr>
                             <tr>
                                 <td>5寸重型双弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>350kg / 772lb</td>
                                 <td>188/208</td>
@@ -8550,7 +8547,7 @@
                             </tr>
                             <tr>
                                 <td>6寸重型双弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
                                 <td>200/220</td>
@@ -8560,7 +8557,7 @@
                             </tr>
                             <tr>
                                 <td>8寸重型双弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
                                 <td>240/260</td>
@@ -8610,40 +8607,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型单弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>167kg / 368lb</td>
+                                <td>167</td>
                                 <td>157*115</td>
                                 <td>128*74</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>5寸重型单弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>350kg / 772lb</td>
-                                <td>180kg / 397lb</td>
+                                <td>180</td>
                                 <td>157*115</td>
                                 <td>128*74</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>6寸重型单弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>400kg / 882lb</td>
-                                <td>190kg / 419lb</td>
+                                <td>190</td>
                                 <td>157*115</td>
                                 <td>128*74</td>
                                 <td>13</td>
                             </tr>
                             <tr>
                                 <td>8寸重型单弹簧减震铁芯聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>247kg / 545lb</td>
+                                <td>247</td>
                                 <td>157*115</td>
                                 <td>128*74</td>
                                 <td>13</td>
@@ -9045,27 +9042,27 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>100kg / 220lb</td>
-                                <td>112kg / 247lb</td>
+                                <td>112</td>
                                 <td>M12*60</td>
                                 <td>22*50</td>
                                 <td>22-25</td>
                             </tr>
                             <tr>
                                 <td>4寸精益管脚轮（万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>120kg / 265lb</td>
-                                <td>136kg / 300lb</td>
+                                <td>136</td>
                                 <td>M12*60</td>
                                 <td>22*50</td>
                                 <td>22-25</td>
                             </tr>
                             <tr>
                                 <td>5寸精益管脚轮（万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>130kg / 287lb</td>
-                                <td>156kg / 344lb</td>
+                                <td>156</td>
                                 <td>M12*60</td>
                                 <td>22*50</td>
                                 <td>22-25</td>
@@ -9136,7 +9133,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>130kg / 287lb</td>
-                                <td>76kg / 168lb</td>
+                                <td>76</td>
                                 <td>70*53</td>
                                 <td>52*35</td>
                                 <td>8.5</td>
@@ -9159,7 +9156,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>130kg / 287lb</td>
-                                <td>78kg / 172lb</td>
+                                <td>78</td>
                                 <td>/</td>
                                 <td>/</td>
                                 <td>/</td>
@@ -9226,7 +9223,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>130kg / 287lb</td>
-                                <td>76kg / 168lb</td>
+                                <td>76</td>
                                 <td>70*53</td>
                                 <td>52*35</td>
                                 <td>8.5</td>
@@ -9249,7 +9246,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>130kg / 287lb</td>
-                                <td>78kg / 172lb</td>
+                                <td>78</td>
                                 <td>/</td>
                                 <td>/</td>
                                 <td>/</td>
@@ -9321,8 +9318,8 @@
                                 <td>2寸</td>
                                 <td>50</td>
                                 <td>30</td>
-                                <td>90</td>
-                                <td>76kg / 168lb</td>
+                                <td>90kg / 198lb</td>
+                                <td>76</td>
                                 <td>70*53</td>
                                 <td>52*35</td>
                                 <td>8.5</td>
@@ -9344,8 +9341,8 @@
                                 <td>2寸</td>
                                 <td>50</td>
                                 <td>30</td>
-                                <td>90</td>
-                                <td>78kg / 172lb</td>
+                                <td>90kg / 198lb</td>
+                                <td>78</td>
                                 <td>/</td>
                                 <td>/</td>
                                 <td>/</td>
@@ -9413,7 +9410,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>160kg / 353lb</td>
-                                <td>76kg / 168lb</td>
+                                <td>76</td>
                                 <td>70*53</td>
                                 <td>52*35</td>
                                 <td>8.5</td>
@@ -9436,7 +9433,7 @@
                                 <td>50</td>
                                 <td>30</td>
                                 <td>160kg / 353lb</td>
-                                <td>78kg / 172lb</td>
+                                <td>78</td>
                                 <td>/</td>
                                 <td>/</td>
                                 <td>/</td>
@@ -9492,27 +9489,27 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
-                                <td>108kg / 238lb</td>
+                                <td>108</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（定向/万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
-                                <td>132kg / 291lb</td>
+                                <td>132</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（定向/万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
-                                <td>158kg / 348lb</td>
+                                <td>158</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
@@ -9566,7 +9563,7 @@
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
                                 <td>134.5</td>
@@ -9575,7 +9572,7 @@
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
                                 <td>160.5</td>
@@ -9628,12 +9625,12 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
-                                <td>107kg / 236lb</td>
+                                <td>107</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
                                 <td>131.5</td>
@@ -9641,10 +9638,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承蓝色聚丙烯脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
-                                <td>157kg / 346lb</td>
+                                <td>157</td>
                                 <td>12</td>
                             </tr>
                         </tbody>
@@ -9702,27 +9699,27 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>108kg / 238lb</td>
+                                <td>108</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（定向/万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
-                                <td>132kg / 291lb</td>
+                                <td>132</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（定向/万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>170kg / 375lb</td>
-                                <td>158kg / 348lb</td>
+                                <td>158</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
@@ -9790,7 +9787,7 @@
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
                                 <td>134.5</td>
@@ -9799,7 +9796,7 @@
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>170kg / 375lb</td>
                                 <td>160.5</td>
@@ -9855,12 +9852,12 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>110kg / 243lb</td>
-                                <td>107kg / 236lb</td>
+                                <td>107</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>4寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
                                 <td>131.5</td>
@@ -9868,10 +9865,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型镀锌防缠绕单轴承黑色TPR橡胶脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>170kg / 375lb</td>
-                                <td>157kg / 346lb</td>
+                                <td>157</td>
                                 <td>12</td>
                             </tr>
                         </tbody>
@@ -9934,27 +9931,27 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
-                                <td>108kg / 238lb</td>
+                                <td>108</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>4寸中型电泳单轴承黑色聚氨酯脚轮（定向/万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
-                                <td>132kg / 291lb</td>
+                                <td>132</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
                             </tr>
                             <tr>
                                 <td>5寸中型电泳单轴承黑色聚氨酯脚轮（定向/万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
-                                <td>158kg / 348lb</td>
+                                <td>158</td>
                                 <td>95*66</td>
                                 <td>75*45</td>
                                 <td>8.6</td>
@@ -10017,7 +10014,7 @@
                             </tr>
                             <tr>
                                 <td>4寸中型电泳单轴承黑色聚氨酯脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
                                 <td>134.5</td>
@@ -10026,7 +10023,7 @@
                             </tr>
                             <tr>
                                 <td>5寸中型电泳单轴承黑色聚氨酯脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
                                 <td>160.5</td>
@@ -10087,12 +10084,12 @@
                                 <td>75</td>
                                 <td>32</td>
                                 <td>150kg / 331lb</td>
-                                <td>107kg / 236lb</td>
+                                <td>107</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>4寸中型电泳单轴承黑色聚氨酯脚轮（万向/边刹/双刹）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>32</td>
                                 <td>180kg / 397lb</td>
                                 <td>131.5</td>
@@ -10100,10 +10097,10 @@
                             </tr>
                             <tr>
                                 <td>5寸中型电泳单轴承黑色聚氨酯脚轮（万向/边刹/双刹）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>32</td>
                                 <td>200kg / 441lb</td>
-                                <td>157kg / 346lb</td>
+                                <td>157</td>
                                 <td>12</td>
                             </tr>
                         </tbody>
@@ -10147,40 +10144,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型白色PP脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>146kg / 322lb</td>
+                                <td>146</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型白色PP脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>360kg / 794lb</td>
-                                <td>168kg / 370lb</td>
+                                <td>168</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型白色PP脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>420kg / 926lb</td>
-                                <td>195kg / 430lb</td>
+                                <td>195</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型白色PP脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>480kg / 1058lb</td>
-                                <td>242kg / 534lb</td>
+                                <td>242</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
@@ -10231,40 +10228,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型米黄色尼龙脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>320kg / 705lb</td>
-                                <td>146kg / 322lb</td>
+                                <td>146</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型米黄色尼龙脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>375kg / 827lb</td>
-                                <td>168kg / 370lb</td>
+                                <td>168</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型米黄色尼龙脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>450kg / 992lb</td>
-                                <td>195kg / 430lb</td>
+                                <td>195</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型米黄色尼龙脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>525kg / 1157lb</td>
-                                <td>242kg / 534lb</td>
+                                <td>242</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
@@ -10310,40 +10307,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型墨绿色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>260kg / 573lb</td>
-                                <td>146kg / 322lb</td>
+                                <td>146</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型墨绿色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>320kg / 705lb</td>
-                                <td>168kg / 370lb</td>
+                                <td>168</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型墨绿色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>385kg / 849lb</td>
-                                <td>195kg / 430lb</td>
+                                <td>195</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型墨绿色聚氨酯脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>420kg / 926lb</td>
-                                <td>242kg / 534lb</td>
+                                <td>242</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
@@ -10394,40 +10391,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型深灰TPR脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>50</td>
                                 <td>200kg / 441lb</td>
-                                <td>146kg / 322lb</td>
+                                <td>146</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型深灰TPR脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>50</td>
                                 <td>250kg / 551lb</td>
-                                <td>168kg / 370lb</td>
+                                <td>168</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型深灰TPR脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>50</td>
                                 <td>300kg / 661lb</td>
-                                <td>195kg / 430lb</td>
+                                <td>195</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型深灰TPR脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>50</td>
                                 <td>335kg / 739lb</td>
-                                <td>242kg / 534lb</td>
+                                <td>242</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
@@ -10473,40 +10470,40 @@
                         <tbody>
                             <tr>
                                 <td>4寸重型咖啡色橡胶脚轮（定向/万向/刹车）</td>
-                                <td>100kg / 220lb</td>
+                                <td>100</td>
                                 <td>45</td>
                                 <td>190kg / 419lb</td>
-                                <td>146kg / 322lb</td>
+                                <td>146</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>5寸重型咖啡色橡胶脚轮（定向/万向/刹车）</td>
-                                <td>125kg / 276lb</td>
+                                <td>125</td>
                                 <td>45</td>
                                 <td>240kg / 529lb</td>
-                                <td>168kg / 370lb</td>
+                                <td>168</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>6寸重型咖啡色橡胶脚轮（定向/万向/刹车）</td>
-                                <td>150kg / 331lb</td>
+                                <td>150</td>
                                 <td>45</td>
                                 <td>300kg / 661lb</td>
-                                <td>195kg / 430lb</td>
+                                <td>195</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
                             </tr>
                             <tr>
                                 <td>8寸重型咖啡色橡胶脚轮（定向/万向/刹车）</td>
-                                <td>200kg / 441lb</td>
+                                <td>200</td>
                                 <td>45</td>
                                 <td>335kg / 739lb</td>
-                                <td>242kg / 534lb</td>
+                                <td>242</td>
                                 <td>115*100</td>
                                 <td>83*71</td>
                                 <td>12</td>
