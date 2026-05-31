@@ -27,10 +27,6 @@
             font-size: 16px;
         }
 
-        .font-14 {
-            font-size: 14px;
-        }
-
         .container {
             display: flex;
             height: 1350px;
@@ -172,14 +168,11 @@
             background-color: #f4a017;
         }
 
-        /* Bottom Note */
         .note {
             padding-bottom: 15px;
             font-size: 14px;
-            /* text-align: center; */
         }
 
-        /* Page Number */
         .page-number {
             position: absolute;
             left: 0;
@@ -208,7 +201,40 @@
             font-size: 24px;
             font-weight: bold;
         }
+
+        .font-14 {
+            font-size: 14px;
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
     </style>
+
+    <!-- Watermark DOM Library -->
+    <script src="https://unpkg.com/watermark-dom@2.4.0/dist/watermark.js"></script>
+    <script>
+        window.onload = function () {
+            // 初始化水印
+            watermark.init({
+                watermark_txt: 'Rolcaster',
+                watermark_x: 50,
+                watermark_y: 50,
+                watermark_rows: 0,
+                watermark_cols: 0,
+                watermark_x_space: 150,
+                watermark_y_space: 150,
+                watermark_color: 'rgba(244, 160, 23, 0.15)',
+                watermark_fontsize: '24px',
+                watermark_alpha: 0.15,
+                watermark_angle: -30,
+                watermark_width: 150,
+                watermark_height: 100,
+                watermark_parent_selector: '.page',
+                watermark_font: 'Microsoft YaHei'
+            });
+        };
+    </script>
 </head>
 
 <body>
@@ -586,7 +612,8 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="note">Note：Dimensions are manually measured. Due to different measurement methods,
+                        <div class="note font-12">Note：Dimensions are manually measured. Due to different measurement
+                            methods,
                             slight errors are inevitable. Data is for reference only, please understand.</div>
                     </div>
                 </div>
