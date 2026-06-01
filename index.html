@@ -210,31 +210,6 @@
             font-size: 12px;
         }
     </style>
-
-    <!-- Watermark DOM Library -->
-    <script src="https://unpkg.com/watermark-dom@2.4.0/dist/watermark.js"></script>
-    <script>
-        window.onload = function () {
-            // 初始化水印
-            watermark.init({
-                watermark_txt: 'Rolcaster',
-                watermark_x: 50,
-                watermark_y: 50,
-                watermark_rows: 0,
-                watermark_cols: 0,
-                watermark_x_space: 150,
-                watermark_y_space: 150,
-                watermark_color: 'rgba(244, 160, 23, 0.15)',
-                watermark_fontsize: '24px',
-                watermark_alpha: 0.15,
-                watermark_angle: -30,
-                watermark_width: 150,
-                watermark_height: 100,
-                watermark_parent_selector: '.page',
-                watermark_font: 'Microsoft YaHei'
-            });
-        };
-    </script>
 </head>
 
 <body>
@@ -11163,3 +11138,11 @@
 </body>
 
 </html>
+<script type="text/javascript" src="./watermark.js"></script>
+<script>
+    // 初始化水印
+    watermark.load({
+        watermark_txt: 'Rolcaster',
+        watermark_color: 'rgba(244, 160, 23, 0.7)',
+    });
+</script>
